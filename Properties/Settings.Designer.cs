@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pantalla_2.Properties
+namespace Pantalla_1_Login.Properties
 {
 
 

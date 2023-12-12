@@ -1,0 +1,13 @@
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\bin\Debug\Pantalla 1 Login.exe.config
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\bin\Debug\Pantalla 1 Login.exe
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\bin\Debug\Pantalla 1 Login.pdb
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla 1 Login.csproj.AssemblyReference.cache
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla_1_Login.Properties.Resources.resources
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla 1 Login.csproj.GenerateResource.cache
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla 1 Login.csproj.CoreCompileInputs.cache
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla 1 Login.exe
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla 1 Login.pdb
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla_1_Login.PantallaLogin.resources
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla_1_Login.Form2.resources
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla_1_Login.Form4.resources
+C:\Users\dleon\Documents\PROGRAMA INGENERIA DE SOFTWARE\Pantalla 1 Login\Pantalla 1 Login\obj\Debug\Pantalla_1_Login.Form5.resources

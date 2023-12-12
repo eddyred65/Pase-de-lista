@@ -3,12 +3,12 @@
 //     Este código fue generado por una herramienta.
 //     Versión de runtime: 4.0.30319.42000
 //
-//     Los cambios en este archivo podrían causar un comportamiento incorrecto y se perderán si
+//     Los cambios de este archivo pueden provocar un comportamiento inesperado y se perderán si
 //     el código se vuelve a generar.
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pantalla_2.Properties
+namespace Pantalla_1_Login.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Pantalla_2.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Pantalla_2.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Pantalla_1_Login.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
