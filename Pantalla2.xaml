@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Pantalla2" Height="400" Width="400">
     <Grid>
-        <TextBlock Text="Registro de usuario" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+        <TextBlock Text="Registro de usuario" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0"/>
 
         <StackPanel Margin="20,60,20,0">
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
