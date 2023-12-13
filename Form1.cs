@@ -75,17 +75,15 @@ namespace Pantalla_1_Login
         {
             // Lógica para verificar las credenciales (puedes conectar con una base de datos)
             // Devuelve true si las credenciales son válidas, de lo contrario, false.
-            // Aquí debes implementar tu propia lógica de autenticación.
-            // Por ejemplo, podrías tener una clase de servicio que maneje la autenticación.
-            // Esta es solo una implementación de ejemplo, no debe usarse en un entorno de producción.
-
-            // ¡Asegúrate de implementar correctamente la lógica de verificación de credenciales!
             return (usuario == "usuario" && contraseña == "contraseña");
         }
 
         private void btnRecuperarContraeña_Click(object sender, EventArgs e)
         {
-
+            // Redirigir a la pantalla 3 (Recuperar Contraseña)
+            PantallaRecuperarContraseña pantallaRecuperar = new PantallaRecuperarContraseña();
+            pantallaRecuperar.Show();
+            this.Hide();
         }
     }
 }

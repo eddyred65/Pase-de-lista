@@ -42,9 +42,10 @@
             this.txtCorreo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtCorreo.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.ForeColor = System.Drawing.Color.Black;
-            this.txtCorreo.Location = new System.Drawing.Point(504, 97);
+            this.txtCorreo.Location = new System.Drawing.Point(378, 79);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(579, 41);
+            this.txtCorreo.Size = new System.Drawing.Size(435, 35);
             this.txtCorreo.TabIndex = 5;
             this.txtCorreo.Text = "Correo";
             this.txtCorreo.TextChanged += new System.EventHandler(this.txtCorreo_TextChanged);
@@ -54,9 +55,10 @@
             this.textNombreCompleto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textNombreCompleto.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textNombreCompleto.ForeColor = System.Drawing.Color.Black;
-            this.textNombreCompleto.Location = new System.Drawing.Point(504, 186);
+            this.textNombreCompleto.Location = new System.Drawing.Point(378, 151);
+            this.textNombreCompleto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textNombreCompleto.Name = "textNombreCompleto";
-            this.textNombreCompleto.Size = new System.Drawing.Size(579, 41);
+            this.textNombreCompleto.Size = new System.Drawing.Size(435, 35);
             this.textNombreCompleto.TabIndex = 6;
             this.textNombreCompleto.Text = "Nombre Completo";
             // 
@@ -65,10 +67,11 @@
             this.txtContraseña.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.Black;
-            this.txtContraseña.Location = new System.Drawing.Point(504, 273);
+            this.txtContraseña.Location = new System.Drawing.Point(378, 222);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
-            this.txtContraseña.Size = new System.Drawing.Size(579, 41);
+            this.txtContraseña.Size = new System.Drawing.Size(435, 35);
             this.txtContraseña.TabIndex = 7;
             // 
             // textConfirmarContraseña
@@ -76,10 +79,11 @@
             this.textConfirmarContraseña.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textConfirmarContraseña.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textConfirmarContraseña.ForeColor = System.Drawing.Color.Black;
-            this.textConfirmarContraseña.Location = new System.Drawing.Point(504, 359);
+            this.textConfirmarContraseña.Location = new System.Drawing.Point(378, 292);
+            this.textConfirmarContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textConfirmarContraseña.Name = "textConfirmarContraseña";
             this.textConfirmarContraseña.PasswordChar = '#';
-            this.textConfirmarContraseña.Size = new System.Drawing.Size(579, 41);
+            this.textConfirmarContraseña.Size = new System.Drawing.Size(435, 35);
             this.textConfirmarContraseña.TabIndex = 8;
             // 
             // btnCrearCuenta
@@ -88,20 +92,23 @@
             this.btnCrearCuenta.BackColor = System.Drawing.Color.Green;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCrearCuenta.Location = new System.Drawing.Point(305, 536);
+            this.btnCrearCuenta.Location = new System.Drawing.Point(229, 436);
+            this.btnCrearCuenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
-            this.btnCrearCuenta.Size = new System.Drawing.Size(974, 81);
+            this.btnCrearCuenta.Size = new System.Drawing.Size(730, 66);
             this.btnCrearCuenta.TabIndex = 9;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = false;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(501, 317);
+            this.label1.Location = new System.Drawing.Point(376, 258);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(416, 16);
+            this.label1.Size = new System.Drawing.Size(335, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Intoduce una Contraseña Alfanumérico, sin espacios, 8-12 caracteres";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -110,18 +117,19 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(501, 403);
+            this.label2.Location = new System.Drawing.Point(376, 327);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 16);
+            this.label2.Size = new System.Drawing.Size(116, 13);
             this.label2.TabIndex = 11;
             this.label2.Text = "Confirma tu contraseña";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1587, 864);
+            this.ClientSize = new System.Drawing.Size(1190, 609);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCrearCuenta);
@@ -129,6 +137,7 @@
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.textNombreCompleto);
             this.Controls.Add(this.txtCorreo);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Crear Cuenta";
             this.Load += new System.EventHandler(this.Form2_Load);
