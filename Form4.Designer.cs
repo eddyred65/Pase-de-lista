@@ -39,9 +39,10 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(415, 28);
+            this.label1.Location = new System.Drawing.Point(311, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(836, 106);
+            this.label1.Size = new System.Drawing.Size(673, 86);
             this.label1.TabIndex = 4;
             this.label1.Text = "Recupere Contraseña";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -51,9 +52,10 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(360, 159);
+            this.label2.Location = new System.Drawing.Point(270, 129);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(928, 43);
+            this.label2.Size = new System.Drawing.Size(760, 35);
             this.label2.TabIndex = 9;
             this.label2.Text = "Ingrese el correo electronico de la cuenta que desea recuperar";
             // 
@@ -64,12 +66,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuario.Location = new System.Drawing.Point(544, 263);
+            this.txtUsuario.Location = new System.Drawing.Point(408, 214);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(579, 41);
+            this.txtUsuario.Size = new System.Drawing.Size(435, 35);
             this.txtUsuario.TabIndex = 10;
             this.txtUsuario.Text = "Email";
             this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // btnCrearCuenta
             // 
@@ -77,22 +81,24 @@
             this.btnCrearCuenta.BackColor = System.Drawing.Color.Green;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCrearCuenta.Location = new System.Drawing.Point(433, 351);
+            this.btnCrearCuenta.Location = new System.Drawing.Point(325, 285);
+            this.btnCrearCuenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
-            this.btnCrearCuenta.Size = new System.Drawing.Size(818, 81);
+            this.btnCrearCuenta.Size = new System.Drawing.Size(614, 66);
             this.btnCrearCuenta.TabIndex = 11;
             this.btnCrearCuenta.Text = "Enviar";
             this.btnCrearCuenta.UseVisualStyleBackColor = false;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1587, 864);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.Controls.Add(this.btnCrearCuenta);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form4";
             this.Text = "Recuperar Contraseña";
             this.Load += new System.EventHandler(this.Form4_Load);

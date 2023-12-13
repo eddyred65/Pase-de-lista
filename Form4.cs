@@ -26,5 +26,10 @@ namespace Pantalla_1_Login
         {
 
         }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
