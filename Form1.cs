@@ -38,7 +38,7 @@ namespace Pantalla_1_Login
                 if (VerificarCredenciales(usuario, contraseña))
                 {
                     // Credenciales correctas, redirigir a la pantalla 4
-                    Pantalla4 pantalla4 = new Pantalla4();
+                    Form4 pantalla4 = new Form4();
                     pantalla4.Show();
                     this.Hide();
                 }
@@ -67,7 +67,7 @@ namespace Pantalla_1_Login
         private void btnCrearCuenta_Click(object sender, EventArgs e)
         {
             // Redirigir a la pantalla 2 (Crear Cuenta)
-            PantallaCrearCuenta pantallaCrearCuenta = new PantallaCrearCuenta();
+            Form2 pantallaCrearCuenta = new Form2();
             pantallaCrearCuenta.Show();
             this.Hide();
         }
@@ -81,7 +81,7 @@ namespace Pantalla_1_Login
         private void btnRecuperarContraeña_Click(object sender, EventArgs e)
         {
             // Redirigir a la pantalla 3 (Recuperar Contraseña)
-            PantallaRecuperarContraseña pantallaRecuperar = new PantallaRecuperarContraseña();
+            Form4 = new Form4();
             pantallaRecuperar.Show();
             this.Hide();
         }

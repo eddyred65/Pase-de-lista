@@ -67,7 +67,7 @@
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Yi Baiti", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtUsuario.Location = new System.Drawing.Point(408, 214);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(435, 35);
             this.txtUsuario.TabIndex = 10;
@@ -82,12 +82,13 @@
             this.btnCrearCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
             this.btnCrearCuenta.Location = new System.Drawing.Point(325, 285);
-            this.btnCrearCuenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCrearCuenta.Margin = new System.Windows.Forms.Padding(2);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(614, 66);
             this.btnCrearCuenta.TabIndex = 11;
             this.btnCrearCuenta.Text = "Enviar";
             this.btnCrearCuenta.UseVisualStyleBackColor = false;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // Form4
             // 
@@ -98,7 +99,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form4";
             this.Text = "Recuperar Contraseña";
             this.Load += new System.EventHandler(this.Form4_Load);

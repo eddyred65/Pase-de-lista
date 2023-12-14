@@ -36,18 +36,21 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(531, 25);
+            this.label1.Location = new System.Drawing.Point(398, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(956, 106);
+            this.label1.Size = new System.Drawing.Size(769, 86);
             this.label1.TabIndex = 5;
             this.label1.Text = "Bienvenido a sus grupos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 864);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form5";
             this.Text = "Pantalla Inicial De Grupos";
             this.Load += new System.EventHandler(this.Form5_Load);

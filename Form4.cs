@@ -31,5 +31,36 @@ namespace Pantalla_1_Login
         {
 
         }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            // Obtener el correo ingresado
+            string correo = txtCorreo.Text;
+
+            // Validar si el correo está registrado en la base de datos
+            if (CorreoRegistrado(correo))
+            {
+                // Enviar correo con la contraseña (implementar esta funcionalidad)
+                EnviarCorreoContraseña(correo);
+
+                // Redirigir a la pantalla 1 "login"
+                PantallaLogin pantallaLogin = new PantallaLogin();
+                pantallaLogin.Show();
+                this.Hide();
+            }
+            else
+            {
+                // Mostrar mensaje de error si el correo no está registrado
+                MessageBox.Show("No se encuentra el correo. Por favor, verifique e intente nuevamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnRetroceso_Click(object sender, EventArgs e)
+        {
+            // Redirigir a la pantalla 1 "login"
+            PantallaLogin pantallaLogin = new PantallaLogin();
+            pantallaLogin.Show();
+            this.Hide();
+        }
     }
 }
